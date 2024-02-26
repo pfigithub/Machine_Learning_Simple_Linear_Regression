@@ -9,3 +9,8 @@ df = pd.read_csv("yourdata.csv")
 
 # take a look at the dataset
 df.head()
+
+
+# selecting some feautures
+cdf = df[['ENGINESIZE','CYLINDERS','FUELCONSUMPTION_COMB','CO2EMISSIONS']]
+cdf.head(9)
